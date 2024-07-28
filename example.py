@@ -29,7 +29,7 @@ def forward_features(model, x):
 
 
 def main():
-    DATA_ROOT = '/home/data/ImageNet/val'
+    DATA_ROOT = '/dataset/ILSVRC2012/val'
     batch_size = 128
     dataset_size = 1280
     num_sweep = 10
