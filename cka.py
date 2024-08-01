@@ -3,6 +3,14 @@ from torch import Tensor
 import torch
 from torch.nn import Module
 
+'''
+inplace (bool): 是否在原地修改输入张量。
+默认为 True，即直接修改输入的张量；如果设置为 False，则会先复制一个新的张量再进行操作。
+
+这里的中心
+
+
+'''
 
 def centering(k: Tensor, inplace: bool = True) -> Tensor:
     if not inplace:
